@@ -40,7 +40,7 @@ class TGContentView: UIView {
         
         cv.isPagingEnabled = true
         cv.showsHorizontalScrollIndicator = false
-//        cv.bounces = false
+        cv.bounces = false
         cv.scrollsToTop = false//点击状态栏不要回到顶部
         return cv
     }()
