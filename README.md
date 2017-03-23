@@ -32,7 +32,7 @@
 > ######  style.isShowBottomLine = true
 
         
-#### 5678 根据自己想要的效果自由配置style，如等分并缩放支持
+#### 56789... 根据自己想要的效果自由配置style，如等分并缩放支持
 > ######  let titles = ["推荐","视频","图片","段子","投票"]
 > ######  let style = TGPageStyle()
 > ######  style.isNeedTitleScale = true//缩放支持
@@ -40,7 +40,7 @@
 
 
 #### `设置完pageViewFrame titles style 后就可以开始用了`
-> ######  var childVCs = [UIViewController]()
+> ######  `var childVCs = [UIViewController]()`
 > ######  for _ in 0..<titles.count {
 > ######    let vc = UIViewController()
 > ######    vc.view.backgroundColor = UIColor.random()
