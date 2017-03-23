@@ -2,7 +2,8 @@
 类似网易新闻的导航条，支持滚动、缩放动画、渐变、遮罩等，可以任意组合各效果，史上最赞
 ------------------------------------------------------------------------
 
-`如何使用`<br>
+> `如何使用`<br>
+
 ```swift
     let pageViewFrame = CGRect(x: 0, y: 64, width: view.bounds.width, height: view.bounds.height - 64 )//非scrollView设置64
 ```
