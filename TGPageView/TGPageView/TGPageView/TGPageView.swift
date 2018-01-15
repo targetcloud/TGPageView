@@ -12,7 +12,7 @@ class TGPageView: UIView {
 
     fileprivate var titles : [String]
     fileprivate var childVCs : [UIViewController]
-    fileprivate weak var parentVC : UIViewController
+    fileprivate weak var parentVC : UIViewController!
     fileprivate var titleStyle : TGPageStyle
     
     init(frame: CGRect,titles : [String],titleStyle : TGPageStyle,childVCs : [UIViewController],parentVC : UIViewController) {
