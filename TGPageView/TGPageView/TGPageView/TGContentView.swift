@@ -22,7 +22,7 @@ class TGContentView: UIView {
     weak var delegate : TGContentViewDelegate?
     
     fileprivate var childVCs : [UIViewController]
-    fileprivate weak var parentVC : UIViewController
+    fileprivate weak var parentVC : UIViewController!
     fileprivate var fromOffsetX : CGFloat = 0
     fileprivate var isTitleClickForbidSVDelegate : Bool = false
     
